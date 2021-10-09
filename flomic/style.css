@@ -1,0 +1,223 @@
+*{box-sizing:border-box}
+
+img{max-width: 100%;}
+
+.clearfix{clear: both;}
+
+
+
+.leftsidebar{width: 20%;
+               position: fixed;
+              height: 100vh;
+            background-color: rgb(119, 109, 109); overflow: auto;}
+
+
+              ul{display: flex;
+                flex-direction: column;
+               list-style: none; background-color: rgb(97, 93, 93); 
+              }
+
+               li:hover{color: skyblue;}
+               li{margin: 5px;}
+
+               .list1{
+              display: inline-block; 
+            
+          padding: 2px;
+         color: white;}
+
+         .section2{width: 80%;
+        margin-left: 20%;
+      text-align: center;}
+
+      hr{color: orange;}
+
+      .section2 .header{ background-image: url("tree.jpg");
+                          height: 400px; background-repeat: no-repeat;
+                          background-position: center;
+                        background-size: cover;
+                      text-align: center;
+                    padding: 40px;
+                  color: white;}
+
+                  .header h1{font-weight: 100px;
+                  font-family: Arial, Helvetica, sans-serif;}
+
+                  .header p{font-weight: 100px;
+                    font-family: Arial, Helvetica, sans-serif;}
+
+                  .btx{background-color: rgb(11, 176, 241);
+                  color: white;
+                   margin: 0; display: inline-block;
+                   padding: 12px 15px;
+                  border: none;}
+
+                  .home{width: 85%;
+                  margin:auto;
+                  padding-left: 300px; 
+                }
+
+                  .home h2{color: rgb(24, 166, 223);
+                  font-weight: 150;}
+
+                  .home p{color: grey;
+                  font-family: Arial, Helvetica, sans-serif;}
+
+
+                .button1{ background-color: orange;
+                   color: white; 
+                   border: none;
+                  
+                  padding: 10px; text-align: left;}
+
+                .row{ display: grid;
+                  grid-template-columns: 
+                        33.33333% 33.333333% 33.333333%;
+                      column-gap: 20px;}
+
+                      .row img{ height: 200px;
+                        width: 80%;
+                       margin: auto;}
+
+                       .row h3{color: orange; font-weight: 100;
+                               font-family: Arial, Helvetica, sans-serif;}
+
+                               .row p{font-weight: 100;
+                                font-family: Arial, Helvetica, sans-serif;}
+
+                                .col1{display: grid;
+                                    grid-template-columns: 70% 30%;}
+
+                                     .para1{ font-weight: 100; font-family: Arial, Helvetica, sans-serif;}
+
+                                     .roww1 h3{ font-weight: 100; font-family: Arial, Helvetica, sans-serif;}
+
+                                    .button2{ background-color:rgb(41, 41, 175);
+                                      color: white; 
+                                      border: none;
+                                     
+                                     padding: 10px; text-align: left;}
+
+
+                                     .serv1{display: grid;
+                                             grid-template-columns: 32% 32% 32%; column-gap: 20px;}
+
+                                             .services1{background-color:rgb(41, 41, 175) ; 
+                                             padding: 20px;  display: grid; grid-template-columns: auto auto; column-gap: 20px; color: white;
+                                             font-weight: 100; font-family: Arial, Helvetica, sans-serif;} 
+
+                .skills{ 
+                   display: grid; 
+                  grid-template-columns: 60% 40% ; 
+                 column-gap: 20px;}      
+
+                 .skill1 p{font-weight: 100; font-family: Arial, Helvetica, sans-serif;}
+
+                 
+                 .skill2 p:nth-child(1){background-color:rgb(41, 41, 175);
+                                         border: 1px outset white; color: white; text-align: center; width: 90%; border-radius: 5px;}
+
+                  .skill2 p:nth-child(2){background-color:rgb(41, 41, 175);
+                                          border: 1px outset white; color: white; text-align: center; width: 75%; border-radius: 5px;}
+                                
+                  .skill2 p:nth-child(3){background-color:rgb(41, 41, 175);
+                                            border: 1px outset white; color: white; text-align: center; width: 60%; border-radius: 5px;}   
+                                            
+                                            
+                  .skill2 p:nth-child(4){background-color:rgb(41, 41, 175);
+                                              border: 1px outset white; color: white; text-align: center; width: 88%; border-radius: 5px;}
+                                              
+                                              
+                  .button4{background-color: rgb(16, 218, 16);
+                    color: white; 
+                    border: none;
+                   
+                   padding: 10px; text-align: left;}
+
+                  .section5{display: grid;
+                     grid-template-columns: 33.33333% 33.33333% 33.33333%; }
+
+                     .sec5{text-align: center;}
+
+                     .images{width: 90%; height: 170px;}
+
+                     .sec5 h3{color: chartreuse;
+                      font-family: Arial, Helvetica, sans-serif;
+                     font-weight: 100;}
+
+                     .but5{   padding-left: 300px;
+                               padding-right: 200px;}
+
+                     .button5{ background-color:rgb(16, 218, 16) ;
+                       color: white; 
+                      border: none;
+                     
+                     padding: 10px; text-align: left;}
+
+                     .button7{background-color: rgb(247, 7, 79);
+                      color: white; 
+                      border: none;
+                     
+                     padding: 10px; text-align: left;}
+
+                     iframe{width: 100%; height: 300px;
+                    padding-left: 10px;
+                  padding-right: 10px;}
+
+                  .detail{display: grid;
+                  grid-template-columns: 33.333% 33.333% 33.3333%; column-gap: 20px;}
+
+                  .detail input{height: 30px;}
+
+                  .button8{ background-color: rgb(206, 18, 49);
+                    color: white; 
+                    border: none;
+                   
+                   padding: 10px; text-align: left;}
+
+                   .footer{border-left: 5px solid white;
+                    background-color: rgb(54, 52, 52);
+                    margin-left: 20%;}
+
+                    .foot1{text-align: center; background-color: rgb(54, 52, 52) ; padding: 30px;  border-left: 4px solid rgb(54, 52, 52); }
+
+
+                .foot1 i{color: white; padding:10px}
+
+                .copy{text-align: center; background-color: rgb(54, 52, 52) ; padding: 20px;  }
+
+                .copy11{color: white; }
+
+                @media only screen and (max-width:576px){
+
+                  .leftsidebar{width: 100%;
+                   position: relative;
+                  height: auto; margin: auto;}
+                
+
+                .section2{ width: 100%;
+                margin: auto;}
+
+                .home{display: grid; grid-template-columns: auto;}
+
+                .row{ display: grid; grid-template-columns: auto;}
+
+                .roww1{display: grid; grid-template-columns: auto; width: 100%;}
+
+                .serv1{display: grid; grid-template-columns: auto; row-gap: 20px;}
+
+                .skills{display: grid; grid-template-columns: auto;}
+
+                .section5{display: grid; grid-template-columns: auto;}
+
+                .images{height: 230px;
+                  width: 75%;
+                  margin: auto;}
+
+                  .detail{grid-template-columns: auto; row-gap: 10px;}
+                  footer{
+                    width: 100%;
+                    margin: auto;
+                }
+
+              }
